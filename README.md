@@ -1,2 +1,2 @@
 # portfolio-2024
-Responsive Portfolio 
+Responsive Portfolio.
