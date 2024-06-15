@@ -19,16 +19,16 @@ based IN India,MH
 
 .Home__Social 
 
-linkedin - https://www.linkedin.com/in/gaurav-tendulkar/
-GitHub - https://github.com/GauravTendulkar26
-Twitter - https://x.com/gaurav_t626
+linkedin - https://www.linkedin.com/in/gaurav-tendulkar/ <br>
+GitHub - https://github.com/GauravTendulkar26 <br>
+Twitter - https://x.com/gaurav_t626 <br>
 
 home info-title 
 
-BIOGRAPHY
-CONTACT 
-COMPLETED PROJECT 
-COMPLETED WORKED
+BIOGRAPHY <br>
+CONTACT   <br>
+COMPLETED PROJECT <br> 
+COMPLETED WORKED <br>
 
 home info-DECS . HOME-INFO-NUMBER 
 
@@ -38,9 +38,9 @@ passionate about designing
 based in India.
 
 
-Pune, Maharashtra, India 
-gauravtendulkar1165@gmail.com
-+91 9403282997
+Pune, Maharashtra, India <br>
+gauravtendulkar1165@gmail.com <br>
++91 9403282997 <br>
 
 
 
