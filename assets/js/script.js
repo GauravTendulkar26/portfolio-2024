@@ -51,42 +51,42 @@ let swiperProjects = new Swiper(".projects__container", {
 
 /*=============== EMAIL JS */
 
-const contactForm = document.getElementById('contact-form'),
-      contactName = document.getElementById('contact-name'),
-      contactEmail = document.getElementById('contact-email'),
-      contactProject = document.getElementById('contact-project'),
-      contactMessage = document.getElementById('contact-message')
+// const contactForm = document.getElementById('contact-form'),
+//       contactName = document.getElementById('contact-name'),
+//       contactEmail = document.getElementById('contact-email'),
+//       contactProject = document.getElementById('contact-project'),
+//       contactMessage = document.getElementById('contact-message')
 
-const sendEmail = (e) =>{
-  e.preventDefault()
-      // check if field has value
-    if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {
-      contactMessage.classList.remove('color-blue')
-      contactMessage.classList.add('color-red')
-          // show message
-      contactMessage.textContent = 'Write all input field 📩'
-    }
-    else{
-      // seriveId - templetid form -public key
-      emailjs.sendForm('service_1odhthi','template_w069y1n','#contact-form','hqLtcaH4UF9ALSFxl')
-      .then(() =>{
-        // show msg and color
-        contactMessage.classList.add('color-blue')
-        contactMessage.textContent = 'Message send ✅'
+// const sendEmail = (e) =>{
+//   e.preventDefault()
+//       // check if field has value
+//     if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {
+//       contactMessage.classList.remove('color-blue')
+//       contactMessage.classList.add('color-red')
+//           // show message
+//       contactMessage.textContent = 'Write all input field 📩'
+//     }
+//     else{
+//       // seriveId - templetid form -public key
+//       emailjs.sendForm('service_1odhthi','template_w069y1n','#contact-form','hqLtcaH4UF9ALSFxl')
+//       .then(() =>{
+//         // show msg and color
+//         contactMessage.classList.add('color-blue')
+//         contactMessage.textContent = 'Message send ✅'
 
-        // set timer 
-        setTimeout(() =>{
-          contactMessage.textContent = ''
-        }, 5000)
-      }, (error) =>{
-        alert('SOMETHING WENT WRONG', error)
-      })
-      contactName.value = ''
-      contactEmail.value = ''
-      contactProject.value = ''
-    }
-}
-contactForm.addEventListener('submit' , sendEmail)
+//         // set timer 
+//         setTimeout(() =>{
+//           contactMessage.textContent = ''
+//         }, 5000)
+//       }, (error) =>{
+//         alert('SOMETHING WENT WRONG', error)
+//       })
+//       contactName.value = ''
+//       contactEmail.value = ''
+//       contactProject.value = ''
+//     }
+// }
+// contactForm.addEventListener('submit' , sendEmail)
       
 
 /*=============== SCROLL SECTIONS ACTIVE LINK */
